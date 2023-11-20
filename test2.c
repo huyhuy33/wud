@@ -52,6 +52,7 @@ int main() {
 
 	printf("%s\n", s);
 	printf("%d\n", words+1);
+	
     printf("Longest word(s): %d letters\n", longest);
     for (int j = 0; j < count; j++) { 
         printf("'%.*s'\n", longest, s + longest_pos[j]);
